@@ -1,0 +1,23 @@
+# Secrets and local settings. NEVER commit these.
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output (Next.js / Node)
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+
+# Python (in case the backend uses it)
+__pycache__/
+venv/
+.venv/
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+*.log
